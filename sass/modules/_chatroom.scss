@@ -1,0 +1,80 @@
+.messages h2 {
+    font-size: 18px;
+	margin: 20px 20px 0 44px;
+	height: 376px;
+    
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    margin-bottom: 10px;
+    max-width: 60%;
+  }
+  
+  .sender {
+    color: #fff;
+    background-color: #0084ff;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 20px;
+    align-self: flex-end;
+    margin-left: 10px;
+  }
+  
+  .message-content {
+    padding: 10px;
+    background-color: #f6f6f6;
+    border-radius: 0 50px 50px 50px;
+    font-size: 16px;
+    word-break: break-word;
+  }
+  
+  section:last-child {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  section:last-child h2 {
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 10px;
+  }
+  
+  #nickname {
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  
+  .sendname{ 
+    font-weight: 600;
+    font-size: 2em;
+}
+.sendmessage{ 
+font-size: 18px;
+font-stretch: expanded;
+}

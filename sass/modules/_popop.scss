@@ -1,0 +1,39 @@
+#popupShow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(200, 138, 223);
+    display: grid;
+    grid-gap: 2em;
+
+  }
+  
+  #popupShow h2 {
+    display: none;
+  }
+  
+  #popupShow input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  #popupShow input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #popupShow input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  .popupHide {
+  display: none !important;
+  }
