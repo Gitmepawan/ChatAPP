@@ -1,3 +1,4 @@
+<<<<<<< dev.pwn.readme
 # ChatAPP
 chatapp with express vue and socket
 ## CHATAPP WITH NODE, EXPRESS AND VUE
@@ -30,3 +31,7 @@ Pawan Pandeya
 ## License
 MIT
 
+=======
+# ChatAPP
+chatapp with express vue and socket
+>>>>>>> main
