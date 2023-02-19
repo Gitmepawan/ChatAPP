@@ -26,7 +26,8 @@ const vm = createApp({
         message: '',
         messages: [],
         nickname: '',
-        users: []
+        users: [], 
+        isHidden: false
       }
     },
 
@@ -58,25 +59,3 @@ const vm = createApp({
   socket.addEventListener('new_message', showNewMessage);
   socket.addEventListener('typing', handleUserTyping);
  
-  export default {
-    data() {
-      return {
-        messages: [],
-        nickname: "",
-        message: "",
-      };
-    },
-    methods: {
-      dispatchMessage() {
-        // code to dispatch the message to the server and update the messages array
-        // ...
-        this.$nextTick(() => {
-          this.scrollToBottom();
-        });
-      },
-      scrollToBottom() {
-        const messageSection = this.$refs.messageSection;
-        messageSection.scrollTop = messageSection.scrollHeight;
-      },
-    },
-  };

@@ -1,19 +1,6 @@
-@import './modules/reset';
+@import './modules/_message';
 @import './modules/vars';
-
+@import './modules/_popop';
 @import './modules/chatmessage';
-
-// write some defaults here
-body {
-    font-size: 16px;
-    background-color: #333;
-    color: white;
-
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-main { 
-    display: grid; 
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 1em;
-}
+@import './modules/login';
+@import './modules/_chatroom.scss';
